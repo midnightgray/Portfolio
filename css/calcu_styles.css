@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.container{
+    margin: 20px;
+    background-color: black;
+    border-radius: 20px;
+    height:40rem;
+    width:23rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.num_area {
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 8rem;
+    margin-bottom: 20px;
+}
+
+.num {
+    width: 100%;
+    height: 75px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color:black;
+    border:none;
+    outline: none;
+    color: white;
+    font-size: 90px;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.bilogs{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    padding-right: 25px;
+    column-gap: 38px;
+    row-gap: 5px;
+    justify-content: center;
+    border-radius: 20px;
+    grid-template-areas: 
+   "clear convert divide multiply"
+   "seven eight nine minus"
+   "four five six plus"
+   "one two three equal"
+   "zero zero dot equal";
+}
+
+button{
+    border-radius: 100%;
+    height: 75px;
+    width: 75px;
+    font-size: xx-large;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    border: none;
+}
+
+button[value="0"]{
+    align-content: left;
+    border-radius: 50px;
+    grid-column: span 2;
+    width: 10.1rem;
+}
+
+button[value="/"]{
+    background-color: orange;
+    color: white;
+}
+button[value="x"]{
+    background-color: orange;
+    color: white;
+}
+button[value="-"]{
+    background-color: orange;
+    color: white;
+}
+button[value="+"]{
+    background-color: orange;
+    color: white;
+}
+button[value="="]{
+    background-color: orange;
+    color: white;
+}
+
+

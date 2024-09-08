@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="./css/calcu_styles.css">
+    <title>calculator</title>
+</head>
+<body>
+    <div class="container" id="tite">
+        <div class="num_area">
+            <input class="num" value="" placeholder="0" readonly></input>
+        </div>
+        <div class="bilogs">
+            <button value="AC" onclick="handleOperation(event)">AC</button>
+            <button value="+/-" onclick="handleOperation(event)">+/-</button>
+            <button value="%" onclick="handleOperation(event)">%</button>
+            <button value="/" onclick="handleOperation(event)">/</button>
+            <button value="7" onclick="handleclick(event)">7</button>
+            <button value="8" onclick="handleclick(event)">8</button>
+            <button value="9" onclick="handleclick(event)">9</button>
+            <button value="x" onclick="handleOperation(event)">x</button>
+            <button value="4" onclick="handleclick(event)">4</button>
+            <button value="5" onclick="handleclick(event)">5</button>
+            <button value="6" onclick="handleclick(event)">6</button>
+            <button value="-" onclick="handleOperation(event)">-</button>
+            <button value="1" onclick="handleclick(event)">1</button>
+            <button value="2" onclick="handleclick(event)">2</button>
+            <button value="3" onclick="handleclick(event)">3</button>
+            <button value="+" onclick="handleOperation(event)">+</button>
+            <button value="0" onclick="handleclick(event)">0</button>
+            <button value="." onclick="handleclick(event)">.</button>
+            <button value="=" onclick="handleSubmit()">=</button>
+        </div>
+    </div>
+<script src="./js/calcu.js"></script>  
+</body>
+</html>
