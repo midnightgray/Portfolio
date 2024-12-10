@@ -1,6 +1,6 @@
 ---
 title: Monetary Expenses Monitoring App
-description: I'm building a SAAS providing global latency monitoring for your APIs and websites from edge locations around the world. Have you ever wondered how fast your API is in any part of the world? Planetfall allows you to find out and monitor it continuously.
+description: Developed a C# (for the functionalities) money management application available for android. The application allows users to list their expenses, create saving goals, loan, and top-up their wallet.
 date: "2023-04-01"
 url: https://planetfall.io
 published: true
