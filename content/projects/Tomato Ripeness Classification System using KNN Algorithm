@@ -1,7 +1,7 @@
 ---
 title: Tomato Ripeness Classification System using KNN Algorithm
-description: Created on my first year in Adamson University.
-date: "2021-10-25"
+description: Developed a Python mobile app that utilizes the YOLOv5s object detection model to accurately identify tomatoes within a real-time camera.
+date: "2024-06-15"
 url: https://unkey.dev
 published: true
 repository: chronark/unkey
