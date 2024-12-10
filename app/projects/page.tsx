@@ -46,7 +46,7 @@ export default async function ProjectsPage() {
             Projects
           </h2>
           <p className="mt-4 text-zinc-400">
-            A collection of projects that demonstrate my journey through computer science in Adamson University.
+            A collection of my computer science projects from Adamson University.
           </p>
         </div>
         <div className="w-full h-px bg-zinc-800" />
