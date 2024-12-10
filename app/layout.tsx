@@ -15,10 +15,10 @@ export const metadata: Metadata = {
     description:
       "Co-founder of unkey.dev and founder of planetfall.io",
     url: "https://chronark.com",
-    siteName: "chronark.com",
+    siteName: "Portfolio | Villalon",
     images: [
       {
-        url: "https://chronark.com/og.png",
+        url: "https://i.pinimg.com/736x/b7/33/1a/b7331a41f11dca573f3d005fde773f98.jpg",
         width: 1920,
         height: 1080,
       },
