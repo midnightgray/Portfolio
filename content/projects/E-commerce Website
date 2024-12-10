@@ -1,5 +1,5 @@
 ---
-title: "@chronark/access"
+title: "E-commerce Website"
 description: A minimal library for access control. It is designed to be used together with opaque access tokens by providing a simple interface to define roles with different access permissions and verifying requests to resources.
 repository: chronark/access
 date: "2022-11-13"
