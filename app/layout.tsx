@@ -6,12 +6,12 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
   title: {
-    default: "https://mary-madeleine-villalon.vercel.app",
-    template: "%s | https://mary-madeleine-villalon.vercel.app",
+    default: "Portfolio | Villalon",
+    template: "%s | Portfolio | Villalon",
   },
   description: "4th Year Computer Science Student at Adamson University",
   openGraph: {
-    title: "https://mary-madeleine-villalon.vercel.app",
+    title: "Portfolio | Villalon",
     description:
       "4th Year Computer Science Student at Adamson University",
     url: "https://mary-madeleine-villalon.vercel.app",
