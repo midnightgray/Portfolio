@@ -10,4 +10,4 @@ repository: chronark/unkey
 
 [![](https://unkey.dev/images/landing/app.png)](https://unkey.dev)
 
-Unkey is an open source API Key management solution. It allows you to create, manage and validate API Keys for your users. It’s built with security and speed in mind.
+Developed a Python mobile app that utilizes the YOLOv5s object detection model to accurately identify tomatoes within a real-time camera.
